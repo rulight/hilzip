@@ -1,0 +1,22 @@
+{
+    "regionWmsMap": {
+      "GEOID10": {
+        "layerName":"hilzip2010",
+        "server": "http://tad3tiles.tad3.org/hilzip2010/{z}/{x}/{y}.pbf",
+        "serverType": "MVT",
+        "serverMinZoom": 7,
+        "serverMaxZoom": 12,
+        "regionIdsFile": "data/regionids/region_map-HIL_ZIP_2010.json",
+        "regionProp": "GEOID10",
+        "aliases": ["GEOID10"],
+        "description": "teST",
+        "bbox": [
+          -82.82366904,
+          27.57054998,
+          -82.05401201,
+          28.17337897
+        ]
+      }
+    }
+}
+

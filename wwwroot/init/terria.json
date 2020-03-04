@@ -1,0 +1,32 @@
+{
+  "homeCamera": {
+    "north": 28,
+    "east": -82,
+    "south": 27,
+    "west": -83
+  },
+  "catalog": [
+    {
+      "name": "Dkan dataset",
+      "type": "group",
+      "preserveOrder": true,
+      "isOpen": true,
+      "corsDomains": [ "http://tad3tiles.tad3.org","demo.locationfinder.com.au" ],
+      "items": [
+        {
+            "name": "ALICE",
+            "type": "group",
+            "items": [
+                  { 
+                    "name": "ALICE 2014", 
+                    "type": "csv", 
+                     "url": "data/alice_hill_2014_zip_2010.csv",
+                    "dataVariable": "MTFCC10",
+                    "regionVariable": "GEOID10"
+                  }
+            ]
+        }
+      ]
+    }
+  ]
+}

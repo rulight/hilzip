@@ -1,0 +1,12 @@
+{
+    "regionWmsMap": {
+      "FL": {
+        "layerName":"locationfinder:HIL_ZIP_2010",
+        "server": "http://demo.locationfinder.com.au:8080/geoserver/locationfinder/ows",
+        "regionProp": "GEOID10",
+        "aliases": ["GEOID10"],
+        "description": "teST"
+      }
+    }
+}
+
