@@ -35,6 +35,57 @@
         -81.5621840000000020,
         27.3407020000000003
       ]
+    },
+    "MAN_ZIP_2010": {
+      "layerName":"manzip2010",
+      "server": "http://tad3tiles.tad3.org/manzip2010/{z}/{x}/{y}.pbf",
+      "serverType": "MVT",
+      "serverMinZoom": 6,
+      "serverMaxZoom": 11,
+      "regionIdsFile": "data/regionids/region_map-MAN_ZIP_2010.json",
+      "regionProp": "GEOID10",
+      "aliases": ["GEOID10"],
+      "description": "MAN ZCTA",
+      "bbox": [
+        -82.7461023360370831, 
+        27.2077689999999990,
+        -82.0543490000000020,
+        27.6466129999999986
+      ]
+    },
+    "PIN_ZIP_2010": {
+      "layerName":"PIN_ZIP_2010",
+      "server": "http://tad3tiles.tad3.org/PIN_ZIP_2010/{z}/{x}/{y}.pbf",
+      "serverType": "MVT",
+      "serverMinZoom": 6,
+      "serverMaxZoom": 11,
+      "regionIdsFile": "data/regionids/region_map-PIN_ZIP_2010.json",
+      "regionProp": "GEOID10",
+      "aliases": ["GEOID10"],
+      "description": "PIN ZCTA",
+      "bbox": [
+        -82.8514538143116397, 
+        27.6112042083084930,
+        -82.5824885848590924,
+        28.1733459999999987
+      ]
+    },
+    "SAR_ZIP_2010": {
+      "layerName":"SAR_ZIP_2010",
+      "server": "http://tad3tiles.tad3.org/SAR_ZIP_2010/{z}/{x}/{y}.pbf",
+      "serverType": "MVT",
+      "serverMinZoom": 6,
+      "serverMaxZoom": 11,
+      "regionIdsFile": "data/regionids/region_map-SAR_ZIP_2010.json",
+      "regionProp": "GEOID10",
+      "aliases": ["GEOID10"],
+      "description": "SAR ZCTA",
+      "bbox": [
+        -82.5890873934300913, 
+        26.8935418767315682,
+        -82.0574689999999975,
+        27.3891220000000004
+      ]
     }
 
   }
