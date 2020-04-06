@@ -1,21 +1,20 @@
 {
   "regionWmsMap": {
     "HIL_ZIP_2010": {
-      "layerName":"HIL_ZIP_2010",
-      "server": "http://tad3tiles.tad3.org/HIL_ZIP_2010/{z}/{x}/{y}.pbf",
+      "layerName":"hilzip2010",
+      "server": "http://tad3tiles.tad3.org/hilzip2010/{z}/{x}/{y}.pbf",
       "serverType": "MVT",
       "serverMinZoom": 8,
       "serverMaxZoom": 11,
       "regionIdsFile": "data/regionids/region_map-HIL_ZIP_2010.json",
       "regionProp": "GEOID10",
-      "nameProp":"Name",
       "aliases": ["GEOID10"],
       "description": "HIL ZCTA",
       "bbox": [
         -82.82366904, 
          27.57054998,
         -82.05401201,
-         28.17337897
+         28.57337897
       ]
     },
     "DES_ZIP_2010": {

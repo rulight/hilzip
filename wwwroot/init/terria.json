@@ -20,8 +20,6 @@
                 "name": "DeSota ALICE 2016", 
                 "type": "csv", 
                 "url": "data/DeSota_ALICE_2016.csv",
-                "dataVariable": "GEOID10",
-                "regionVariable": "ALICE_Household_PCT",
                 "description": "Describe the thing https://google.com",
                 "opacity": ".8",
                 "tableStyle": {
@@ -29,6 +27,8 @@
                   "colorBins": 5,
                   "colorPalette": "5-class Oranges",
                   "colorBinMethod": "ckmeans",
+                  "regionVariable": "GEOID10",
+                  "regionType":"DES_ZIP_2010",
                   "columns": {
                     //"ALICE": {
                      // "name": "renamed variable"},
@@ -45,12 +45,12 @@
                     "name": "Hillborough ALICE 2016", 
                     "type": "csv", 
                     "url": "data/Hillborough_ALICE_2016.csv",
-                    "dataVariable": "GEOID10",
-                    "regionVariable": "ALICE_Household_PCT",
                     "description": "Describe the thing https://google.com",
                     "opacity": ".8",
                     "tableStyle": {
-                      "dataVariable": "ALICE_Household_Num",
+                      "dataVariable": "ALICE_HousehALICE Households #",
+                      "regionVariable": "GEOID10",
+                      "regionType":"HIL_ZIP_2010",
                       "colorBins": 5,
                       "colorPalette": "5-class Oranges",
                       "colorBinMethod": "ckmeans",
@@ -65,7 +65,83 @@
                         }
                       }
                     } 
+              },
+              {  
+                "name": "Manatee ALICE 2016", 
+                "type": "csv", 
+                "url": "data/Manatee_ALICE_2016.csv",
+                "description": "Describe the thing https://google.com",
+                "opacity": ".8",
+                "tableStyle": {
+                  "dataVariable": "ALICE_HousehALICE Households #",
+                  "regionVariable": "GEOID10",
+                  "regionType":"MAN_ZIP_2010",
+                  "colorBins": 5,
+                  "colorPalette": "5-class Oranges",
+                  "colorBinMethod": "ckmeans",
+                  "columns": {
+                    //"ALICE": {
+                     // "name": "renamed variable"},
+                      "format": {
+                        "maximumFractionDigits": 1
+                      },
+                      "ZIP": {
+                        "type": "hidden"
+                    }
                   }
+                }
+
+              },
+              {  
+                  "name": "Pinellas ALICE 2016", 
+                  "type": "csv", 
+                  "url": "data/Pinellas_ALICE_2016.csv",
+                  "description": "Describe the thing https://google.com",
+                  "opacity": ".8",
+                  "tableStyle": {
+                    "dataVariable": "ALICE_HousehALICE Households #",
+                    "regionVariable": "GEOID10",
+                    "regionType":"PIN_ZIP_2010",
+                    "colorBins": 5,
+                    "colorPalette": "5-class Oranges",
+                    "colorBinMethod": "ckmeans",
+                    "columns": {
+                      //"ALICE": {
+                       // "name": "renamed variable"},
+                        "format": {
+                          "maximumFractionDigits": 1
+                        },
+                        "ZIP": {
+                          "type": "hidden"
+                      }
+                    }
+                  }
+              },
+              {  
+                "name": "Sarasot ALICE 2016", 
+                "type": "csv", 
+                "url": "data/Sarasota_ALICE_2016.csv",
+                "description": "Describe the thing https://google.com",
+                "opacity": ".8",
+                "tableStyle": {
+                  "dataVariable": "ALICE_HousehALICE Households #",
+                  "regionVariable": "GEOID10",
+                  "regionType":"SAR_ZIP_2010",
+                  "colorBins": 5,
+                  "colorPalette": "5-class Oranges",
+                  "colorBinMethod": "ckmeans",
+                  "columns": {
+                    //"ALICE": {
+                     // "name": "renamed variable"},
+                      "format": {
+                        "maximumFractionDigits": 1
+                      },
+                      "ZIP": {
+                        "type": "hidden"
+                    }
+                  }
+                }
+            }
                   
                   
             ]

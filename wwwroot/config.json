@@ -33,6 +33,8 @@
         //     enableOnLocalhost: true // If false, don't show this when running on localhost
         // },
         
+        useCesiumIonTerrain: false,
+        cesiumIonAccessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIxZTIxYWY3ZS01YTAwLTRmYTEtYjNkOC1lM2VjNmI4OTdkZDQiLCJpZCI6MjQ3ODgsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1ODU3NzQxOTl9.e5iK0yPLPJK_Kzs3USj0Ow3mJFdOWM2nM6mN8XMqbbU',
         /*
         developerAttribution: {
             text: "Your organisation",
@@ -56,10 +58,10 @@
 
         // Default mobile viewer mode when loading the map for the first time on mobile platforms.
         // Options are: "3DTerrain", "3DSmooth", "2D"
-        mobileDefaultViewerMode: "2d",
+        mobileDefaultViewerMode: "2D",
         // Enable experimental features, since its nice to have the bleeding edge.
         // Disable it if things go wrong with the experimental features or your users aren't robust to features which might change or disapear completly.
-        "experimentalFeatures": true,
+        "experimentalFeatures": false,
 
         // To override TerriaJS's region mapping file with a local one.
         regionMappingDefinitionsUrl: "data/regionMapping.json"
